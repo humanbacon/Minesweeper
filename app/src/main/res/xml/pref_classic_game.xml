@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com" >
+
+    <!--<PreferenceCategory>
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="80"
+            android:key="speechRate"
+            android:max="100"
+            android:summary="Adjust reading speed"
+            android:title="Speech speed"
+            robobunny:min="1"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight="%" />
+    </PreferenceCategory>
+	-->
+	
+
+</PreferenceScreen>

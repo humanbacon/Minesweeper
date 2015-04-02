@@ -1,0 +1,41 @@
+<resources>
+     <style name="Theme.Blue" parent="android:style/Theme.NoTitleBar">
+        <item name="android:buttonStyle">@style/ThemeBlue.Button</item>
+        <item name="android:buttonStyleToggle">@style/ThemeBlue.ToggleButton</item>
+        <item name="android:checkboxStyle">@style/ThemeBlue.CheckBox</item>
+        <item name="android:radioButtonStyle">@style/ThemeBlue.RadioButton</item>  
+        <item name="android:progressBarStyleHorizontal">@style/ThemeBlue.ProgressBarHorizontal</item>
+        <item name="android:spinnerStyle">@style/ThemeBlue.Spinner</item>  
+        <item name="android:spinnerItemStyle">@style/ThemeBlue.SpinnerItemText</item>
+        <item name="android:seekBarStyle">@style/ThemeBlue.SeekBar</item>
+        <item name="android:editTextStyle">@style/ThemeBlue.EditText</item>
+        <item name="android:textViewStyle">@style/ThemeBlue.TextView</item>
+    
+</style>
+      <style name="Theme.Green" parent="android:style/Theme.NoTitleBar">
+        <item name="android:buttonStyle">@style/ThemeGreen.Button</item>
+        <item name="android:buttonStyleToggle">@style/ThemeGreen.ToggleButton</item>
+        <item name="android:checkboxStyle">@style/ThemeGreen.CheckBox</item>
+        <item name="android:radioButtonStyle">@style/ThemeGreen.RadioButton</item>  
+        <item name="android:progressBarStyleHorizontal">@style/ThemeGreen.ProgressBarHorizontal</item>
+        <item name="android:spinnerStyle">@style/ThemeGreen.Spinner</item>  
+        <item name="android:spinnerItemStyle">@style/ThemeGreen.SpinnerItemText</item>
+        <item name="android:seekBarStyle">@style/ThemeGreen.SeekBar</item>
+        <item name="android:editTextStyle">@style/ThemeGreen.EditText</item>
+        <item name="android:textViewStyle">@style/ThemeGreen.TextView</item>
+    
+</style>
+       <style name="Theme.Simple" parent="android:style/Theme.Light.NoTitleBar">
+        <item name="android:buttonStyle">@style/ThemeSimple.Button</item>
+        <item name="android:buttonStyleToggle">@style/ThemeSimple.ToggleButton</item>
+        <item name="android:checkboxStyle">@style/ThemeSimple.CheckBox</item>
+        <item name="android:radioButtonStyle">@style/ThemeSimple.RadioButton</item>  
+        <item name="android:progressBarStyleHorizontal">@style/ThemeSimple.ProgressBarHorizontal</item>
+        <item name="android:spinnerStyle">@style/ThemeSimple.Spinner</item>  
+        <item name="android:spinnerItemStyle">@style/ThemeSimple.SpinnerItemText</item>
+        <item name="android:seekBarStyle">@style/ThemeSimple.SeekBar</item>
+        <item name="android:editTextStyle">@style/ThemeSimple.EditText</item>
+        <item name="android:textViewStyle">@style/ThemeSimple.TextView</item>
+    
+</style>
+</resources>

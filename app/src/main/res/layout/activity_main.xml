@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/newGame"
+        style="@style/main_menu_item"
+        android:onClick="createNewGame"
+        android:text="@string/game" />
+
+    <Button
+        android:id="@+id/settings"
+        style="@style/main_menu_item"
+        android:onClick="gotoSettings"
+        android:text="@string/Settings" />
+
+    <Button
+        android:id="@+id/stat"
+        style="@style/main_menu_item"
+        android:onClick="showStat"
+        android:text="@string/stat" />
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/main_menu_item"
+        android:onClick="exit"
+        android:text="@string/exit" />
+
+</LinearLayout>

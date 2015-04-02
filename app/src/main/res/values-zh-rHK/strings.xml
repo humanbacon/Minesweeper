@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">踩地雷</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+    <string name="new_game">新遊戲</string>
+    <string name="game">遊戲</string>
+    <string name="stat">統計</string>
+    <string name="exit">退出</string>
+    <string name="title_activity_create_new_game">CreateNewGameActivity</string>
+    <string name="classic">傳統</string>
+    <string name="Settings">設定</string>
+    <string name="title_activity_new_classic_game">NewClassicGameActivity</string>
+    <string name="beginner">初學</string>
+    <string name="intermediate">中級</string>
+    <string name="expert">進階</string>
+    <string name="custom">自訂</string>
+    <string name="title_activity_classic_game">ClassicGameActivity</string>
+    <string name="resume_button_text">遊戲已暫停\n點擊繼續</string>
+    <string name="back">返回</string>
+    <string name="win_message">你贏了!</string>
+    <string name="lose_message">你輸了!</string>
+    <string name="new_custom_game">新自訂遊戲</string>
+    <string name="custom_width">闊:&#160;</string>
+    <string name="custom_height">高:&#160;</string>
+    <string name="custom_mine_no">地雷數量:&#160;</string>
+    <string name="confirm">確定</string>
+    <string name="cancel">取消</string>   
+    <string name="continue_last_game">繼續上次遊戲&#8230;</string>
+    <string name="stat_1">你玩了&#160;</string>   
+    <string name="stat_2">&#160;次\n贏了&#160;</string>
+    <string name="stat_3">&#160;次</string>
+    <string name="stat_4">\n最快的時間是&#160;</string>
+    <string name="stat_5">秒</string>   
+    <string name="help">幫助</string>
+    <string name="loading">載入中...</string>
+    
+</resources>

@@ -1,0 +1,230 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="horizontal_rule1" parent="AppBaseTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">#FFCCCCCC</item>
+    </style>
+
+    <style name="btnStyleopal" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:background">@drawable/custom_btn_opal</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:layout_marginBottom">3dip</item>
+    </style>
+
+    <style name="simple_theme_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/simple_theme_checkbox</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ThemeBlue.Button" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_selector_blue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ThemeBlue.ToggleButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/togglebutton_selector_blue</item>
+        <item name="android:textOn">ON</item>
+        <item name="android:textOff">OFF</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+        <item name="android:width">100dp</item>
+    </style>
+
+    <style name="ThemeBlue.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector_blue</item>
+    </style>
+
+    <style name="ThemeBlue.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton_selector_blue</item>
+    </style>
+
+    <style name="ThemeBlue.ProgressBarHorizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progressbarhorizontal_blue</item>
+    </style>
+
+    <style name="ThemeBlue.Spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/spinner_selector_blue</item>
+    </style>
+
+    <style name="ThemeBlue.SpinnerItemText" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/spinneritem_selector_blue</item>
+    </style>
+
+    <style name="ThemeBlue.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_progress_blue</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_blue</item>
+    </style>
+
+    <style name="ThemeBlue.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edittext_selector_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ThemeBlue.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ThemeGreen.Button" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_selector_green</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ThemeGreen.ToggleButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/togglebutton_selector_green</item>
+        <item name="android:textOn">ON</item>
+        <item name="android:textOff">OFF</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+        <item name="android:width">100dp</item>
+    </style>
+
+    <style name="ThemeGreen.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector_green</item>
+    </style>
+
+    <style name="ThemeGreen.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton_selector_green</item>
+    </style>
+
+    <style name="ThemeGreen.ProgressBarHorizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progressbarhorizontal_green</item>
+    </style>
+
+    <style name="ThemeGreen.Spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/spinner_selector_green</item>
+    </style>
+
+    <style name="ThemeGreen.SpinnerItemText" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/spinneritem_selector_green</item>
+    </style>
+
+    <style name="ThemeGreen.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_progress_green</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_green</item>
+    </style>
+
+    <style name="ThemeGreen.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edittext_selector_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ThemeGreen.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ThemeSimple.Button" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_selector_green</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ThemeSimple.ToggleButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/togglebutton_selector_green</item>
+        <item name="android:textOn">ON</item>
+        <item name="android:textOff">OFF</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+        <item name="android:width">100dp</item>
+    </style>
+
+    <style name="ThemeSimple.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector_green</item>
+    </style>
+
+    <style name="ThemeSimple.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radiobutton_selector_green</item>
+    </style>
+
+    <style name="ThemeSimple.ProgressBarHorizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progressbarhorizontal_green</item>
+    </style>
+
+    <style name="ThemeSimple.Spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/spinner_selector_green</item>
+    </style>
+
+    <style name="ThemeSimple.SpinnerItemText" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/spinneritem_selector_green</item>
+    </style>
+
+    <style name="ThemeSimple.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_progress_green</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_green</item>
+    </style>
+
+    <style name="ThemeSimple.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/edittext_selector_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ThemeSimple.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="main_menu_item" parent="@style/ButtonTheme2">
+        <item name="android:background">@drawable/button_selector_silver</item>         
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+    
+    <style name="highlight_button" parent="@style/ButtonTheme2">
+        <item name="android:shadowColor">#001DFA</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

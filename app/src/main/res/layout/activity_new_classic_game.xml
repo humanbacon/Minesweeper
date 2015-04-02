@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/newClassicGameView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/continue_classic"
+        style="@style/main_menu_item"
+        android:onClick="continueClassicGame"
+        android:text="@string/continue_last_game" />
+
+    <Button
+        android:id="@+id/beginner"
+        style="@style/main_menu_item"
+        android:onClick="createClassicGameBoard"
+        android:text="@string/beginner" />
+
+    <Button
+        android:id="@+id/intermediate"
+        style="@style/main_menu_item"
+        android:onClick="createClassicGameBoard"
+        android:text="@string/intermediate" />
+
+    <Button
+        android:id="@+id/expert"
+        style="@style/main_menu_item"
+        android:onClick="createClassicGameBoard"
+        android:text="@string/expert" />
+
+    <Button
+        android:id="@+id/custom"
+        style="@style/main_menu_item"
+        android:onClick="createCustomClassicGameBoard"
+        android:text="@string/custom" />
+
+</LinearLayout>

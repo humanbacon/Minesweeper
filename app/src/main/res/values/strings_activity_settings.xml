@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_enable_question_mark">Enable queation mark</string>
+    <string name="pref_enable_question_mark_description">Can place question mark on board.</string>
+    <string name="pref_primary_control">Open cell</string>
+    <string name="pref_secondary_control">Put flag</string>
+
+    <string-array name="pref_control_array">
+        <item>Single tab</item>
+        <item>Long press</item>
+        <item>Double tab</item>
+    </string-array>
+    <!-- Classic game settings -->
+    <string name="pref_header_classic_game">Classic Game Settings</string>
+    <string name="pref_flag_vibration">Enable vibration when put flag</string>
+    <string name="pref_lose_vibration">Enable vibration when lose</string>
+    <string name="pref_default_zoom_level">Default zoom level</string>
+
+    <string-array name="pref_zoom_level_array">
+        <item>Fit screen</item>
+        <item>Suitable</item>
+        <item>Maximum</item>
+    </string-array>
+
+    <string name="pref_assistant_level">Assistances</string>
+
+    <string-array name="pref_assistant_level_array">
+        <item>No assistance</item>
+        <item>Highlight adjacent cells</item>
+        <item>Open adjacent cells</item>
+    </string-array>
+
+    <string name="pref_language">Language (Need to restart the app)</string>
+
+    <string-array name="pref_language_array">        
+        <item>English</item>
+        <item>繁體中文</item>
+    </string-array>
+
+</resources>

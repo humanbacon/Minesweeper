@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewTheme2" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/theme2_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/theme2_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonTheme2" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/theme2_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonTheme2" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/theme2_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerTheme2" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/theme2_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/theme2_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarTheme2" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/theme2_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/theme2_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarTheme2" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/theme2_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/theme2_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/theme2_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarTheme2" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/theme2_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/theme2_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigTheme2" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/theme2_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/theme2_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallTheme2" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/theme2_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/theme2_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleTheme2" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/theme2_btn_toggle_holo_light</item>
+  </style>
+
+</resources>

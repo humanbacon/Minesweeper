@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme2" parent="@style/_Theme2" />
+
+    <style name="_Theme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:editTextBackground">@drawable/theme2_edit_text_holo_light</item>
+        <item name="android:textColorHighlight">#991891e8</item>
+        <item name="android:textSelectHandleLeft">@drawable/theme2_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/theme2_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/theme2_text_select_handle_middle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewTheme2</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/theme2_btn_check_holo_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/theme2_btn_radio_holo_light</item>
+        <item name="android:buttonStyle">@style/ButtonTheme2</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonTheme2</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerTheme2</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarTheme2</item>
+        <item name="android:seekBarStyle">@style/SeekBarTheme2</item>
+        <item name="android:ratingBarStyle">@style/RatingBarTheme2</item>
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigTheme2</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallTheme2</item>
+        <item name="android:buttonStyleToggle">@style/ToggleTheme2</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/theme2_list_selector_holo_light</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/theme2_activated_background_holo_light</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/theme2_fastscroll_thumb_holo</item>
+    </style>
+
+</resources>

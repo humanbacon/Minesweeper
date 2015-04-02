@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_enable_question_mark">啟用問號</string>
+    <string name="pref_enable_question_mark_description">Can place question mark on board.</string>
+    <string name="pref_primary_control">打開格子</string>
+    <string name="pref_secondary_control">標記地雷</string>
+
+    <string-array name="pref_control_array">
+        <item>單擊</item>
+        <item>長按</item>
+        <item>雙擊</item>
+    </string-array>
+    <!-- Classic game settings -->
+    <string name="pref_header_classic_game">Classic Game Settings</string>
+    <string name="pref_flag_vibration">標記地雷時振動</string>
+    <string name="pref_lose_vibration">遊戲落敗時振動</string>
+    <string name="pref_default_zoom_level">預設縮放級別</string>
+
+    <string-array name="pref_zoom_level_array">
+        <item>配合屏幕</item>
+        <item>合適</item>
+        <item>最大</item>
+    </string-array>
+
+    <string name="pref_assistant_level">協助</string>
+
+    <string-array name="pref_assistant_level_array">
+        <item>沒有協助</item>
+        <item>突出附近格子</item>
+        <item>打開附近格子</item>
+    </string-array>
+
+    <string name="pref_language">Language（須要重啟遊戲）</string>
+
+    <string-array name="pref_language_array">        
+        <item>English</item>
+        <item>繁體中文</item>
+    </string-array>
+
+</resources>

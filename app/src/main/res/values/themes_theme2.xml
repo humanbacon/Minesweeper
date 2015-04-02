@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme2" parent="@style/_Theme2" />
+
+    <style name="_Theme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:editTextStyle">@style/EditTextTheme2</item>
+        <item name="android:textColorHighlight">#991891e8</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewTheme2</item>
+        <item name="android:checkboxStyle">@style/CheckBoxTheme2</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonTheme2</item>
+        <item name="android:buttonStyle">@style/ButtonTheme2</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonTheme2</item>
+        <item name="android:spinnerStyle">@style/SpinnerTheme2</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemTheme2</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarTheme2</item>
+        <item name="android:seekBarStyle">@style/SeekBarTheme2</item>
+        <item name="android:ratingBarStyle">@style/RatingBarTheme2</item>
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigTheme2</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallTheme2</item>
+        <item name="android:buttonStyleToggle">@style/ToggleTheme2</item>
+        <item name="android:listViewStyle">@style/ListViewTheme2</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewTheme2.White</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemTheme2</item>
+    </style>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3410862456822347/7818044319" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/setting_background"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/stat_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/beginner_stat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:onClick="switchStat"
+                android:text="@string/beginner"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/intermediate_stat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:onClick="switchStat"
+                android:text="@string/intermediate"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/expert_stat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:onClick="switchStat"
+                android:text="@string/expert"
+                android:textSize="7pt" />
+        </LinearLayout>
+
+        <ViewAnimator
+            android:id="@+id/stat_animator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/beginner_stat_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="beginner" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/intermediate_stat_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="intermediate" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/expert_stat_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="expert" >
+            </TextView>
+        </ViewAnimator>
+    </LinearLayout>
+
+</LinearLayout>

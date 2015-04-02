@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.humanbacon.minesweeper"
+    android:versionCode="7"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/_Theme2" >
+        <activity
+            android:name="com.humanbacon.minesweeper.game.appinterface.MainActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.humanbacon.minesweeper.game.appinterface.CreateNewGameActivity"
+            android:label="@string/title_activity_create_new_game" >
+        </activity>
+        <activity
+            android:name="com.humanbacon.minesweeper.game.appinterface.StatActivity"
+            android:label="@string/title_activity_create_new_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.humanbacon.minesweeper.game.appinterface.NewClassicGameActivity"
+            android:label="@string/title_activity_new_classic_game" >
+        </activity>
+        <!-- "android:configChanges" attribute will prevent change of orientation from restarting the gaming activity -->
+        <activity
+            android:name="com.humanbacon.minesweeper.game.appinterface.classic.GameBoardActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_classic_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.humanbacon.minesweeper.game.appinterface.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
+        </activity> 
+         <activity
+            android:name="com.humanbacon.minesweeper.game.appinterface.HelpActivity"
+            android:screenOrientation="portrait" >
+        </activity>          
+    </application>
+
+</manifest>
